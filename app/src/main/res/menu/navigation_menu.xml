@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/first"
+            android:title="Cultural Video" />
+        <item
+            android:id="@+id/second"
+            android:title="Government Scheme" />
+        <item
+            android:id="@+id/third"
+            android:title="Kids Section" />
+
+        <item
+            android:id="@+id/fourth"
+            android:title="Travel" />
+        <item
+            android:id="@+id/fifth"
+            android:title="Stay/Hotels" />
+        <item
+            android:id="@+id/sixth"
+            android:title="Register as guide" />
+        <item
+            android:id="@+id/seventh"
+            android:title="Quiz"/>
+
+
+
+    </group>
+
+</menu>

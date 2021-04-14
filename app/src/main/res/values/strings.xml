@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Our Heritage</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="facebook_application_id" translatable="false">513844805913776</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb513844805913776</string>
+    <string name="temp">The Golghar or Gol Ghar (गोलघर), ("Round house") is a large granary located to the west of the Gandhi Maidan in Patna, capital of Bihar state, India.
+    The Golghar or Gol Ghar (गोलघर), ("Round house") is a large granary located to the west of the Gandhi Maidan in Patna, capital o
+        The Golghar or Gol Ghar (गोलघर), ("Round house") is a large granary located to the west of the Gandhi Maidan in Patna, capital o
+    </string>
+    <string name="about">This app offers the detailed history and relevant information about the
+popular Indian places and tourism ideas. The main motto is to create awareness about our rich culture and heritage among
+ the local residents.It is designed user friendly, so that more and more number of citizens can be benefited. The app contains
+a number of dazzling photos and articles about Indian tourism such as natural beauty,geographic wonders,
+local customs, historic sites, diverse culture and arts of India. It offers an additional feature in which
+ user can suggest to add the places which can be converted into tourist spots and hence can promote business which will lead to the growth of
+ economy. It also uses Google Earth so that users can
+get the 3d view of the landmark. It also provides an excellent picture analyzing framework in which you can capture an image of the landmark from
+your camera and the app will give details about that landmark. There are more than 500+ tourist destinations in our app which are
+classified in different categories like state wise, latest trends.</string>
+    <string name="about_city"><u>About City</u></string>
+    <string name="physical_artifacts"><u>Physical Artifacts</u></string>
+    <string name="practices"><u>Practices/Culture</u></string>
+    <string name="skills"><u>Skills/Knowledge</u></string>
+    <string name="YOUR_GOOGLE_MAP_API_KEY">AIzaSyAGYsCostzVQhsi0HMK6lJ54DolyDvr2FU</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="close">Close</string>
+    <string name="open">Open</string>
+    <string name="default_notification_channel_id">notification</string>
+
+</resources>
