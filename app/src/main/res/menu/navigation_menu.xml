@@ -5,13 +5,13 @@
 
         <item
             android:id="@+id/first"
-            android:title="Cultural Video" />
+            android:title="Dance Forms" />
         <item
             android:id="@+id/second"
             android:title="Government Scheme" />
         <item
             android:id="@+id/third"
-            android:title="Kids Section" />
+            android:title="Musical Instruments" />
 
         <item
             android:id="@+id/fourth"
@@ -21,7 +21,7 @@
             android:title="Stay/Hotels" />
         <item
             android:id="@+id/sixth"
-            android:title="Register as guide" />
+            android:title="Food" />
         <item
             android:id="@+id/seventh"
             android:title="Quiz"/>

@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity implements Toolbar.OnMenuIte
 
     private void init() {
         toolbar = findViewById(R.id.toolbar);
-        toolbar.setTitle(R.string.app_name);
+        toolbar.setTitle("Incredible India");
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
@@ -86,11 +86,12 @@ public class MainActivity extends AppCompatActivity implements Toolbar.OnMenuIte
 
 
         View view=navigationView.getHeaderView(0);
+       // View view=navigationView.inflateHeaderView(R.layout.navigation_header);
         TextView userName=view.findViewById(R.id.user_name);
-        ImageView userImage=view.findViewById(R.id.user_image);
+      ImageView userImage=(ImageView)view.findViewById(R.id.user_image);
         SharedPreferences preferences=getSharedPreferences(LoginActivity.MY_PREF, MODE_PRIVATE);
         userName.setText(preferences.getString(LoginActivity.NAME, " "));
-        Picasso.get().load(preferences.getString(LoginActivity.PHOTO_URL, "no_url")).into(userImage);
+        //Picasso.get().load(preferences.getString(LoginActivity.PHOTO_URL, "no_url")).into(userImage);
 
 
         tablayout = findViewById(R.id.tab_layout);
@@ -139,14 +140,12 @@ public class MainActivity extends AppCompatActivity implements Toolbar.OnMenuIte
     public boolean onMenuItemClick(MenuItem item) {
         if(actionBarDrawerToggle.onOptionsItemSelected(item))return true;
         switch (item.getItemId()){
-            case R.id.add_place:
-                startActivity(new Intent(this,AddPlacesActivity.class));
-                break;
+
             case R.id.about:
                 startActivity(new Intent(this,AboutActivity.class));
                 break;
             case R.id.share:
-                showMessage("In devlopment mode");
+                showMessage("In development mode");
                 break;
             case R.id.translate:
 
@@ -305,7 +304,7 @@ public class MainActivity extends AppCompatActivity implements Toolbar.OnMenuIte
                 startActivity(new Intent(MainActivity.this,GovernmentSchemeActivity.class));
                 break;
             case R.id.third:
-                startActivity(new Intent(MainActivity.this,KidsActivity.class));
+                startActivity(new Intent(MainActivity.this,MusicalInstruments.class));
                 break;
             case R.id.fourth:
                 Intent intent=new Intent(MainActivity.this,WebViewActivity.class);
@@ -318,7 +317,7 @@ public class MainActivity extends AppCompatActivity implements Toolbar.OnMenuIte
                 startActivity(intent);
                 break;
             case R.id.sixth:
-                startActivity(new Intent(MainActivity.this, GuideRegistrationActivity.class));
+                startActivity(new Intent(MainActivity.this, FoodActivity.class));
                 break;
             case R.id.seventh:
                 startActivity(new Intent(MainActivity.this, QuizActivity.class));

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Telangana">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentTop="true"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="141dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="   Even though Hyderabad is a part of Telangana and it is famous for its biryani and biscuits, there are still a lot more dishes that are pretty famous in the state, like snacks and curries that are specially prepared in Telangana State."
+                android:textColor="#000"
+                android:textSize="18dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="Hyderabadi Biriyani"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="126dp"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+
+                android:text="The famous biriyani is so delicious that it is a name to be reckoned with in Indian cuisine as a whole. The rich Mughlai delight is a perfect blend of masalas, rice and meat. So, after reaching Hyderabad, freshen up at an hourly hotel in Hyderabad and start your vacation gorging into delicious Hyderabadi Biriyani. "
+                android:textColor="#000" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="230dp"
+                android:src="@drawable/hyderabadbiryani" />
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Sarva Pindi  "
+                android:textColor="#000"
+
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+
+                android:text="Sarva Pindi is a very healthy choice of food for either breakfast or a typical snack. It is basically a savory pancake, that is made from chana dal, peanuts, flour made from rice and chili. The process followed to make this is to cook the ingredients in a round shaped pancake and there are holes made in the dough mixture before it is cooked so that once it's cooked then it turns out to be really fluffy and soft. It is also known as Ginne Appa. "
+                android:textColor="#000" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="187dp"
+                android:src="@drawable/sarva" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Malidalu"
+                android:textColor="#000"
+                android:textSize="18dp"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+
+                android:text="This dish can actually be made out of leftover food such as rotis and chapatis. It is not only healthy but also really tasty. It is basically made of chapati that is cut into many pieces and is mixed with jaggery. In addition to these ingredients, dry fruits like cashew and pista are also added and ghee is finally added. Then they are shaped into round small balls and is a very tasty dish. It can be eaten as a mini dessert after any meal. "
+                android:textColor="#000" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:src="@drawable/malidalu" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Sakinalu
+ "
+                android:textColor="#000"
+
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+                android:text="This is one of the dishes that Indians have been trying to perfect for a very long time. We Indians are huge fans of deep fried snacks and this is a very famous snack. Its main ingredients consist of rice flour and sesame seeds. These are generally prepared during Pongal in January month when we get newly harvested paddy and Rice."
+
+                android:textColor="#000" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:src="@drawable/sakinalu" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UtterPradesh">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentTop="true"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-25dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="12dp"
+                android:text=" Mutton Kofta"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="377dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:justificationMode="inter_word"
+
+                android:text="This one's a winner on the dinner table. It can be served dried as kebabs or with a thick gravy which goes well with Basmati rice. "
+                android:textColor="#000" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="246dp"
+                android:src="@drawable/kofta" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_margin="12dp"
+                android:text="Kakori Kebab "
+                android:textColor="#000"
+
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:layout_margin="12dp"
+                android:justificationMode="inter_word"
+
+                android:text=" famous Nawabi recipe from Lucknow passed down through generations. It derives its name from the city of Kakori on the outskirts of Lucknow. It is made with the finest meat of the lamb and a few spices. "
+                android:textColor="#000" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="187dp"
+                android:src="@drawable/kakorikebab1" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="26dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:text="Aloo Rasedaar "
+                android:textColor="#000"
+                android:textSize="18dp"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:justificationMode="inter_word"
+
+                android:text="A quick and easy indulgent fare. Be it festive occasions or one of those breezy afternoons, aloo-puri is an all-time favourite food. "
+                android:textColor="#000" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:src="@drawable/aloo" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

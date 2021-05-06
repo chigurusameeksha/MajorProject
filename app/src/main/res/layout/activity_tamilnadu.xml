@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tamilnadu">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentTop="true"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-25dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="12dp"
+                android:text="Sambhar "
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="377dp"
+                android:layout_height="150dp"
+                android:layout_margin="12dp"
+                android:justificationMode="inter_word"
+
+                android:text="This list has to begin with the mighty dish called Sambhar. It is a lentil-based stew which has been prepared with tomatoes and/or tamarind as its base for building flavours. Whether it is for breakfast or a lavish traditional Tamilian lunch spread, Sambar is a significant part of almost every meal in Tamil Nadu and in Tamilian homes everywhere. Vegetables such as carrots, yam, drumsticks and okra are added to the pot of Sambar to make it more delicious and nutritious. "
+                android:textColor="#000" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="230dp"
+                android:src="@drawable/sambar" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_margin="12dp"
+                android:text="Puliyodarai  "
+                android:textColor="#000"
+
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_margin="12dp"
+                android:justificationMode="inter_word"
+
+                android:text="Tamarind, coconut and rice are very common ingredients used in Tamil Brahmin food. One such dish that comes from combining tamarind and rice is Puliyodarai. It is a special dish and is generally made during festivals and special occasions. First, it is offered to God as prasadam while praying in the temple and then enjoyed by people. It is really easy to prepare this tangy delicious dish and is generally accompanied with fryums or papadams. "
+                android:textColor="#000" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="187dp"
+                android:src="@drawable/puliyodhari" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:text="Pollachi Nandu Fry  "
+                android:textColor="#000"
+                android:textSize="18dp"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:justificationMode="inter_word"
+
+                android:text="This one is for the seafood lovers! Tamil Nadu is a coastal state and there are many cities who have the pleasure of feasting on some incredible seafood dishes. One such dish the Pollachi Nandu Fry. It is Crab Fry that is prepared using a special spice mix that goes really well with the naturally sweet flavour of the crab. "
+                android:textColor="#000" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:src="@drawable/fry" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

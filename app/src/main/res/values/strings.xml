@@ -11,12 +11,9 @@
 popular Indian places and tourism ideas. The main motto is to create awareness about our rich culture and heritage among
  the local residents.It is designed user friendly, so that more and more number of citizens can be benefited. The app contains
 a number of dazzling photos and articles about Indian tourism such as natural beauty,geographic wonders,
-local customs, historic sites, diverse culture and arts of India. It offers an additional feature in which
- user can suggest to add the places which can be converted into tourist spots and hence can promote business which will lead to the growth of
- economy. It also uses Google Earth so that users can
-get the 3d view of the landmark. It also provides an excellent picture analyzing framework in which you can capture an image of the landmark from
-your camera and the app will give details about that landmark. There are more than 500+ tourist destinations in our app which are
-classified in different categories like state wise, latest trends.</string>
+local customs, historic sites, diverse culture and arts of India.It also gives information about various Dance Forms of india which are intangible
+        heritage.User can also check into hotels using OYO app. There are more than 500+ tourist destinations in our app which are
+classified in different categories like state wise, latest trends.Users can also view information about various musical instruments!</string>
     <string name="about_city"><u>About City</u></string>
     <string name="physical_artifacts"><u>Physical Artifacts</u></string>
     <string name="practices"><u>Practices/Culture</u></string>
@@ -26,5 +23,17 @@ classified in different categories like state wise, latest trends.</string>
     <string name="close">Close</string>
     <string name="open">Open</string>
     <string name="default_notification_channel_id">notification</string>
-
+    <array name="numbers">
+        <item>Choose a State</item>
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Goa</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Tamil Nadu</item>
+        <item>Telangana</item>
+        <item>Uttar Pradesh</item>
+    </array>
 </resources>

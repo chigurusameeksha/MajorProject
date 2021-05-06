@@ -23,7 +23,19 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="drawerItems.QuizActivity"></activity>
+        <activity android:name=".FoodActivity"></activity>
+        <activity android:name=".MusicalInstruments" />
+        <activity android:name=".Arunchalpradesh" />
+        <activity android:name=".Andhrapradesh" />
+        <activity android:name=".Goa" />
+        <activity android:name=".Karnataka" />
+        <activity android:name=".Kerala" />
+        <activity android:name=".MadhyaPradesh" />
+        <activity android:name=".Maharashtra" />
+        <activity android:name=".Tamilnadu" />
+        <activity android:name=".Telangana" />
+        <activity android:name=".UtterPradesh" />
+        <activity android:name="drawerItems.QuizActivity" />
         <activity android:name=".explorefragment.GuideListActivity" />
         <activity android:name="drawerItems.GuideRegistrationActivity" />
         <activity android:name="drawerItems.WebViewActivity" />
@@ -31,13 +43,17 @@
         <activity android:name=".CulturalActivity" />
         <activity android:name=".VideoPlayerActivity" />
         <activity android:name=".KidsActivity" />
-        <!-- Set custom default icon. This is used when no icon is set for incoming notification messages.
-     See README(https://goo.gl/l4GJaQ) for more. -->
+        <!--
+ Set custom default icon. This is used when no icon is set for incoming notification messages.
+     See README(https://goo.gl/l4GJaQ) for more.
+        -->
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_icon"
             android:resource="@mipmap/ic_launcher" />
-        <!-- Set color used with incoming notification messages. This is used when no color is set for the incoming
-             notification message. See README(https://goo.gl/6BKBk7) for more. -->
+        <!--
+ Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more.
+        -->
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_color"
             android:resource="@color/colorAccent" />
@@ -59,7 +75,7 @@
             android:name=".AddPlacesActivity"
             android:parentActivityName=".MainActivity" />
         <activity android:name=".explore.ExploreActivity" />
-        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".LoginActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

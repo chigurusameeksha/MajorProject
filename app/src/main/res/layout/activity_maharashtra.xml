@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Maharashtra">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentTop="true"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-25dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="Pav Bhaji "
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+
+                android:text="Amchi Maharashtra food is incomplete without this dish which has come to be synonymous to the state! Fresh and thick slices of bread, smothered in butter served with a delicious mix of moderately spiced vegetables. This lip-smacking dish has won the heart of every Indian! "
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="230dp"
+                android:src="@drawable/foodpav" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_margin="10dp"
+                android:text="Vada Pav  "
+                android:textColor="@color/black"
+
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+
+                android:text="vada Pav can easily be called the Indian version of a burger! A delicious, spicy, deep-fried patty made of potato is squeezed between a thick slice of bread, similar to a burger bun. Between the vada (patty) and pav (bread) a spicy mix of spices and salt is sprinkled and garnished with a fried, salted green chilli. "
+                android:textColor="#000" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="187dp"
+                android:src="@drawable/vadapav" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Puran Poli "
+                android:textColor="#000"
+                android:textSize="18dp"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+
+                android:text="This delectable food item is a sweet version of the loving parantha. The stuffing is made from jaggery (gur), yellow gram (chana) dal, plain flour, cardamom powder and ghee (clarified butter). It is a popular dish in festive occasions and also can be eaten at any time of the day. A tasty dessert does not need anyone's permission to be eaten!  "
+                android:textColor="#000" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:src="@drawable/polel" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Modak "
+                android:textColor="#000"
+
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+                android:text="Modak is one of the most famous sweet found in Maharashtra and is extensively eaten during the Ganesh Chaturthi Festival all around the state. The sweet filling on the inner part of a modak consists of freshly grated coconut and jaggery while the outer shell is made out of rice flour and is very soft. With time, there have been varied types of modak such as Kesari modak, dark chocolate modak, motichoor modak, paneer modak, dry fruit modak and many more. This sweet is Ganpati's favourite and that is for a very definite reason for sure. "
+
+                android:textColor="#000" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:src="@drawable/modakpic" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

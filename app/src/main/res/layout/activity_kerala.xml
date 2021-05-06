@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Kerala">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentTop="true"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-25dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="Malabar Parotta with Kerala beef curry"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+
+                android:text="Layered flat bread that originated in the Malabar region called Parotta is made by kneading maida (plain flour), egg (in some recipes), oil or ghee and water. The dough is beaten and later shaped into a spiral with thin layers. The ball is rolled flat and roasted into a Parotta with ghee. This is then eaten with beef curry – pieces of beef simmered in a curry made with tomatoes, onions, garlic and spices like bay leaves, cinnamon, cardamom, cloves, black peppercorns and star anise.  "
+                android:textColor="#000" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="230dp"
+                android:src="@drawable/malabar" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_margin="10dp"
+                android:text="Kerala prawn curry (chemmeen curry)  "
+                android:textColor="#000"
+
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+
+                android:text="This is a signature dish of the state – a prawn curry from the Malabar region made with a blend of fenugreek, black mustard and fennel seeds, coconut milk and green chilli. It also includes a special ingredient called kudampuli (also known as brindleberry) to give it a sour taste, plus it uses marinated prawns, drumsticks and raw mango to give it a spicy, tangy flavour. "
+                android:textColor="#000" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="187dp"
+                android:src="@drawable/keralan" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Thalassery biriyani "
+                android:textColor="#000"
+                android:textSize="18dp"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+
+                android:text="A rice biriyani is the most common dish of the Muslim community. Thalassery sea port was a centre for the export of spices where European, Arab and Malabar cultures came together and influenced the cuisine. Thalassery biriyani uses a unique, fragrant, small-grained, thin rice variety named kaima. The biriyani masala and cooked rice are arranged in layers inside the dish. Meat is cooked with the masala on a low heat and layered with rice before the lid of the container is sealed with dough. Hot coal or charcoal is then placed above the lid.  "
+                android:textColor="#000" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:src="@drawable/tallass" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Fish moilee "
+                android:textColor="#000"
+
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+                android:text="A famous Keralan fish stew made with coconut milk, which is a typical Syrian Christian delicacy. The curry is usually prepared in a traditional manchatti (earthen vessel) and stews lightly fried fish in coconut milk, and spices like turmeric, pepper, cinnamon and cloves along with fresh green chillies to give it a tangy taste. The fish (usually kingfish or seer fish) is marinated with oil, turmeric, red chili powder, lemon juice and salt for 30 minutes before being used in the curry. "
+
+                android:textColor="#000" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:src="@drawable/fish" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

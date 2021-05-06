@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Arunchalpradesh">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentLeft="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="280dp"
+                android:layout_margin="12dp"
+                android:justificationMode="inter_word"
+                android:text="  Arunachal Pradesh is known for its picturesque beauty. The state is indeed the best place for a relaxing holiday in the country of India. It welcomes you with its natural beauty, which is still pristine. Arunachal Pradesh is famous for weaving, bamboo work, carpet making and wood carving. There is a secret. It is also known for its appetising cuisine. The variety of dishes made in the state of Arunachal Pradesh has its own fan base. It is made with generous use of herbs, vegetables and lots of love."
+                android:textColor="#000"
+                app:autoSizeTextType="uniform"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Bamboo Shoot"
+                android:textSize="18dp"
+                android:layout_gravity="center"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="126dp"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+
+                android:text="From boiled vegetables to meat and from pickles to chutneys, each dish in Arunachal Pradesh is not complete without bamboo shoots. Also, the popular and traditional Bamboo Shoot dish is made with delicate bamboo. It is marinated in baking soda and freshly ground spices on a low fire. It’s a side dish that Arunachalis relish with their supper. "
+                android:textColor="#000" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="230dp"
+                android:src="@drawable/bambooshoot" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Pika Pila"
+                android:textSize="18dp"
+
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:justificationMode="inter_word"
+
+                android:text=" Pika Pila is a famous type of pickle. It is mostly made by the Apatani tribe of Arunachal Pradesh from pork fat and bamboo shoot with king chilli. King Chilli is known as Bhut Jolokia."
+                android:layout_margin="10dp"
+                />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="187dp"
+                android:src="@drawable/pikapila" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Lukter"
+                android:textColor="#000"
+                android:textSize="18dp"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:justificationMode="inter_word"
+
+                android:text="Lukter is for pure beef lovers. A roasted slice of the same is named Lukter. Dry red chilli seeds are sprinkled on top and served hot. Try this crispy dish and eat it along with steamed rice. This happens to be the perfect evening snack as well. Hence, grab a cup of hot tea and some lukters to enjoy your leisure evening"
+                android:layout_margin="10dp"
+                />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:src="@drawable/lkter" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Pehak"
+                android:textSize="18dp"
+
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+
+                android:text="Pehak is a type of chutney that is made with fermented soya bean and king chilli. It is best when served with steamed rice. Hence, don’t miss this when you are in Arunachal Pradesh. Moreover, Pehak also has the flavour of seasoned rice and the fiery, tart mash which makes it more delicious."                />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:src="@drawable/pehak" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Momos"
+                android:textSize="18dp"
+
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+
+                android:text="This is the most famous North-eastern dish. You can get it with stuffed vegetables or chicken or yak meat. Moreover, if you wish to taste the genuine authentic flavour, travel to any part of the state and explore the roadside assortments. Above all, enjoy the flavour, the fragrance, the atmosphere around and relish momos."                />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:src="@drawable/momo" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
